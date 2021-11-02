@@ -179,7 +179,6 @@ Results:
             return True # Tell the main function the code was found
 
         else: # If the responce got ignored or is invalid ( such as a 404 or 405 )
-            print(f" Invalid | {nitro} ", flush=True, end="" if os.name == 'nt' else "\n") # Tell the user it tested a code and it was invalid
             return False # Tell the main function there was not a code found
 
 if __name__ == '__main__':
